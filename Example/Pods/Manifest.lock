@@ -1,5 +1,5 @@
 PODS:
-  - CRHNetworking (0.1.0)
+  - CRHNetworking (1.0.0)
 
 DEPENDENCIES:
   - CRHNetworking (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CRHNetworking: 59908c54de71c17ba66efd986e951f36cc2adb47
+  CRHNetworking: 585028b0a319ed1c7a08eb6f4ec0c65617210372
 
 PODFILE CHECKSUM: 3842e2dde65cbb1012353afda055ab505a4ef571
 

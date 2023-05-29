@@ -7,12 +7,15 @@
 //
 
 #import "CRHAppDelegate.h"
-
+#import <dog.h>
 @implementation CRHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    NSString *name =[[dog alloc]getName];
+    NSLog(@"name %@",name);
     return YES;
 }
 
