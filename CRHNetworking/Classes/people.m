@@ -9,6 +9,6 @@
 
 @implementation people
 -(int)gethight{
-    return 1;
+    return 1 ;
 }
 @end
