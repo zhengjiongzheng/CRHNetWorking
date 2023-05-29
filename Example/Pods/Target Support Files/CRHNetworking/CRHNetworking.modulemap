@@ -1,0 +1,6 @@
+framework module CRHNetworking {
+  umbrella header "CRHNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}

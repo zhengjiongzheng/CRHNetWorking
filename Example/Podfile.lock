@@ -1,0 +1,16 @@
+PODS:
+  - CRHNetworking (0.1.0)
+
+DEPENDENCIES:
+  - CRHNetworking (from `../`)
+
+EXTERNAL SOURCES:
+  CRHNetworking:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CRHNetworking: db0ffe5ee1a9df3d0e8ec95d6981bb07129e1a44
+
+PODFILE CHECKSUM: 3842e2dde65cbb1012353afda055ab505a4ef571
+
+COCOAPODS: 1.11.3

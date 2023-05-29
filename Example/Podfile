@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'CRHNetworking_Example' do
+  pod 'CRHNetworking', :path => '../'
+
+  target 'CRHNetworking_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
