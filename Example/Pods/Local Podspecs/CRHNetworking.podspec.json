@@ -21,7 +21,7 @@
   "source_files": "CRHNetworking/Classes/**/*",
   "dependencies": {
     "AFNetworking": [
-      "~> 4.0"
+      "~> 4.0.1"
     ]
   }
 }
