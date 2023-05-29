@@ -8,82 +8,86 @@
 
 /* Begin PBXBuildFile section */
 		0C4247669F68D42E64D34996D4B9CA0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0EA3D01A838CB2F67224BFBCFA06F6F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2FEBFFB7E8895E3C2D3AF90095601EF0 /* Pods-CRHNetworking_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71AB49286A68A55048E9549CD77FFAF5 /* Pods-CRHNetworking_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43ACBC591A39BC31F91F837C0673CC45 /* Pods-CRHNetworking_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D3AB11D1754CD93233F8993BF6B06D /* Pods-CRHNetworking_Tests-dummy.m */; };
+		4A4E6F7F1A8A7C2F3E9B71B7B148580B /* dog.h in Headers */ = {isa = PBXBuildFile; fileRef = 92751ACE485C96B97827655565BC7064 /* dog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745968B0167C93F8ADEB67E0BC828BCA /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A49CEE0FEA92A50846FD1EC25536729 /* dog.m */; };
 		7A8BE0CD74B9DC2AE6599FA276E546FE /* Pods-CRHNetworking_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EC1642715CAEAFE367944A0568C929 /* Pods-CRHNetworking_Example-dummy.m */; };
-		B9D429F554FA34BC3023A113FF9588EB /* CRHNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8998237F1FC51A5CE396732CFA2CC705 /* CRHNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8BD6DE2577D93088679CA568DA6AB3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CFCBFAF29CF8CABB8006739DAAB4A8BC /* CRHNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC7D714836EFCFAA2186C15434A9999 /* CRHNetworking-dummy.m */; };
+		8C987011E2F6D5C1BE2FF89B94D4EDEB /* CRHNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FCA2ADF07F2A6CCE33244D349AB5DC5 /* CRHNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BFC495B2BD98666FEFFC98B1CA5F71 /* CRHNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7870A30753AA6F16DAF9D674B659A2 /* CRHNetworking-dummy.m */; };
 		FB6C85C65A7B6BB6FB3A187AA6B6599E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		FC5C264E221E409B1E1C48112E1D621F /* Pods-CRHNetworking_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0E249AD2970E9A416E02634FDE1667F /* Pods-CRHNetworking_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		93878B65EA5855829F5AEF3CB7BD19D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5B975891A2A9DDB4C654F37FBA80F38E;
-			remoteInfo = "Pods-CRHNetworking_Example";
-		};
-		CEA6A158BE5B18914DB369845A672A26 /* PBXContainerItemProxy */ = {
+		65FFA4409BAC6E88DADAC7C08AD02C10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6ABB6A64453D682143F73809B50FD1C7;
 			remoteInfo = CRHNetworking;
 		};
+		EB889CC668B66C8A70062E67996C629D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B975891A2A9DDB4C654F37FBA80F38E;
+			remoteInfo = "Pods-CRHNetworking_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02F21803A84D1B072B9E3323B383867F /* CRHNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHNetworking-prefix.pch"; sourceTree = "<group>"; };
 		0D8B1B05A4E9AB3F1BEAB22CCA5CADA8 /* Pods-CRHNetworking_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRHNetworking_Tests.modulemap"; sourceTree = "<group>"; };
-		2C94B48726CA4032BFC601E8F2451209 /* CRHNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHNetworking.release.xcconfig; sourceTree = "<group>"; };
-		2CC7D714836EFCFAA2186C15434A9999 /* CRHNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRHNetworking-dummy.m"; sourceTree = "<group>"; };
+		1DDF22B7DC13697B00F93A17F929D23B /* CRHNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRHNetworking.modulemap; sourceTree = "<group>"; };
 		4368CC1BD15248E337AE3BF2D178AC3B /* Pods-CRHNetworking_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHNetworking_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4494D4A2AD52DD3D694134E3188B9E81 /* CRHNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHNetworking.debug.xcconfig; sourceTree = "<group>"; };
 		487DE3852358C9740404E60AB0EB2338 /* Pods-CRHNetworking_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHNetworking_Example-frameworks.sh"; sourceTree = "<group>"; };
 		58EC1642715CAEAFE367944A0568C929 /* Pods-CRHNetworking_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRHNetworking_Example-dummy.m"; sourceTree = "<group>"; };
+		5A49CEE0FEA92A50846FD1EC25536729 /* dog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dog.m; path = CRHNetworking/Classes/dog.m; sourceTree = "<group>"; };
+		5C75B2E49D35AE41F4E1710F5F1DBB13 /* CRHNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CRHNetworking-Info.plist"; sourceTree = "<group>"; };
+		5FCA2ADF07F2A6CCE33244D349AB5DC5 /* CRHNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHNetworking-umbrella.h"; sourceTree = "<group>"; };
 		5FDD7CAEEE1D014529B6E20107033820 /* Pods-CRHNetworking_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHNetworking_Example-Info.plist"; sourceTree = "<group>"; };
 		68B6328BD0271C25043D0BA7EF306B6F /* Pods-CRHNetworking_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHNetworking_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71AB49286A68A55048E9549CD77FFAF5 /* Pods-CRHNetworking_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHNetworking_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8998237F1FC51A5CE396732CFA2CC705 /* CRHNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHNetworking-umbrella.h"; sourceTree = "<group>"; };
-		93624043A85C6276D15B0D55FC8EE4E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		95A506C2732DE6265CB1040697E73425 /* CRHNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		80712DE9EA811BE571D04AD8F389C113 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		92751ACE485C96B97827655565BC7064 /* dog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dog.h; path = CRHNetworking/Classes/dog.h; sourceTree = "<group>"; };
 		9CDC004A363EC73F4D322C1C243E78E4 /* Pods-CRHNetworking_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRHNetworking_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A057B99CC6144D7938D9B6FCBD68E7CB /* CRHNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CRHNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0E249AD2970E9A416E02634FDE1667F /* Pods-CRHNetworking_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHNetworking_Example-umbrella.h"; sourceTree = "<group>"; };
 		B1D4AF1150370BCF0A9BA873293A7D1C /* Pods-CRHNetworking_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHNetworking_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BFBAB6E4BA4847291DE7A88334D9AD76 /* Pods-CRHNetworking_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CRHNetworking_Example"; path = Pods_CRHNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C25505E73633122BE25220699667295F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C64C3620A5BD7CCA16C131584DAC280A /* Pods-CRHNetworking_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-CRHNetworking_Tests"; path = Pods_CRHNetworking_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F86C3CADDC0169D580127D6C1A0E3E /* Pods-CRHNetworking_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHNetworking_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB6DB2DF7FA787FD53B4CF69C9FA2CDC /* Pods-CRHNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CBB7DF17A20F72AE6471EADE00C031AC /* Pods-CRHNetworking_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRHNetworking_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC4D93CB7847364B35493994C780473D /* CRHNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CRHNetworking.modulemap; sourceTree = "<group>"; };
+		D30E360739C7097A3B9FB3E6BD9D337A /* CRHNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHNetworking.release.xcconfig; sourceTree = "<group>"; };
 		D414B66F4B34812D0774F3D2D1D1BC77 /* Pods-CRHNetworking_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRHNetworking_Example.modulemap"; sourceTree = "<group>"; };
-		D6CA5ABB52BA3A6C394B168F03D954E5 /* CRHNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CRHNetworking-Info.plist"; sourceTree = "<group>"; };
 		DCDE977F13B8D63855F9819CEBD84331 /* CRHNetworking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CRHNetworking; path = CRHNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39170F15B06E388E70C843CDD99688D /* Pods-CRHNetworking_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHNetworking_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EB7870A30753AA6F16DAF9D674B659A2 /* CRHNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRHNetworking-dummy.m"; sourceTree = "<group>"; };
 		EF17B830B0E5D3861E692399706166DD /* Pods-CRHNetworking_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHNetworking_Tests-Info.plist"; sourceTree = "<group>"; };
-		F90D420FE21CA8C90AD0A500E87EBDD8 /* CRHNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHNetworking-prefix.pch"; sourceTree = "<group>"; };
+		F4F603D171E94BE1F4D0A3A39754B663 /* CRHNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CRHNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F74FC1A8FAE15ADC54A62845DE7E9FA1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F9D3AB11D1754CD93233F8993BF6B06D /* Pods-CRHNetworking_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRHNetworking_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		43196AF63910A9D67621F232061A9534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA3D01A838CB2F67224BFBCFA06F6F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACDA28C1856433994095D76A17CA9B72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FB6C85C65A7B6BB6FB3A187AA6B6599E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D99EE9D52EA02136ED32E320FC38867A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8BD6DE2577D93088679CA568DA6AB3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		251F1308A4F0A9E2528A82E9EB89144A /* Development Pods */ = {
+		14E715C0568F32DDBC0B7EDAF3C477CF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C15E1428597EF55C15BAD5FEA83DF38F /* CRHNetworking */,
+				F4F603D171E94BE1F4D0A3A39754B663 /* CRHNetworking.podspec */,
+				F74FC1A8FAE15ADC54A62845DE7E9FA1 /* LICENSE */,
+				80712DE9EA811BE571D04AD8F389C113 /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4C258980B8038EE58D75AA11ADE25502 /* Pods-CRHNetworking_Example */ = {
@@ -123,14 +129,16 @@
 			path = "Target Support Files/Pods-CRHNetworking_Example";
 			sourceTree = "<group>";
 		};
-		543A50D20ADAC1B347CE33584D6256F1 /* Pod */ = {
+		576EE06D13030016B28026654C574B37 /* CRHNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				A057B99CC6144D7938D9B6FCBD68E7CB /* CRHNetworking.podspec */,
-				93624043A85C6276D15B0D55FC8EE4E8 /* LICENSE */,
-				C25505E73633122BE25220699667295F /* README.md */,
+				92751ACE485C96B97827655565BC7064 /* dog.h */,
+				5A49CEE0FEA92A50846FD1EC25536729 /* dog.m */,
+				14E715C0568F32DDBC0B7EDAF3C477CF /* Pod */,
+				DA6D2A01890A99D845D3A019B3B174CD /* Support Files */,
 			);
-			name = Pod;
+			name = CRHNetworking;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -157,21 +165,6 @@
 			path = "Target Support Files/Pods-CRHNetworking_Tests";
 			sourceTree = "<group>";
 		};
-		72711A59BE349C5EB951A98F0D1437DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC4D93CB7847364B35493994C780473D /* CRHNetworking.modulemap */,
-				2CC7D714836EFCFAA2186C15434A9999 /* CRHNetworking-dummy.m */,
-				D6CA5ABB52BA3A6C394B168F03D954E5 /* CRHNetworking-Info.plist */,
-				F90D420FE21CA8C90AD0A500E87EBDD8 /* CRHNetworking-prefix.pch */,
-				8998237F1FC51A5CE396732CFA2CC705 /* CRHNetworking-umbrella.h */,
-				95A506C2732DE6265CB1040697E73425 /* CRHNetworking.debug.xcconfig */,
-				2C94B48726CA4032BFC601E8F2451209 /* CRHNetworking.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CRHNetworking";
-			sourceTree = "<group>";
-		};
 		8D17EA146B58F72B5DCB319BA45D2194 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,21 +184,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C15E1428597EF55C15BAD5FEA83DF38F /* CRHNetworking */ = {
+		AB24AAB70C7EC722CF741733D26BBD87 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				543A50D20ADAC1B347CE33584D6256F1 /* Pod */,
-				72711A59BE349C5EB951A98F0D1437DC /* Support Files */,
+				576EE06D13030016B28026654C574B37 /* CRHNetworking */,
 			);
-			name = CRHNetworking;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				251F1308A4F0A9E2528A82E9EB89144A /* Development Pods */,
+				AB24AAB70C7EC722CF741733D26BBD87 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8D17EA146B58F72B5DCB319BA45D2194 /* Products */,
 				91B98CA6CE42CF4BF888153A60E7F9F6 /* Targets Support Files */,
@@ -220,6 +211,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DA6D2A01890A99D845D3A019B3B174CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DDF22B7DC13697B00F93A17F929D23B /* CRHNetworking.modulemap */,
+				EB7870A30753AA6F16DAF9D674B659A2 /* CRHNetworking-dummy.m */,
+				5C75B2E49D35AE41F4E1710F5F1DBB13 /* CRHNetworking-Info.plist */,
+				02F21803A84D1B072B9E3323B383867F /* CRHNetworking-prefix.pch */,
+				5FCA2ADF07F2A6CCE33244D349AB5DC5 /* CRHNetworking-umbrella.h */,
+				4494D4A2AD52DD3D694134E3188B9E81 /* CRHNetworking.debug.xcconfig */,
+				D30E360739C7097A3B9FB3E6BD9D337A /* CRHNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CRHNetworking";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -231,11 +237,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63792A9A26FF8DA15C8BEDA5B9D0B072 /* Headers */ = {
+		26D21DE087B9BB79DC7FCCD492776925 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D429F554FA34BC3023A113FF9588EB /* CRHNetworking-umbrella.h in Headers */,
+				8C987011E2F6D5C1BE2FF89B94D4EDEB /* CRHNetworking-umbrella.h in Headers */,
+				4A4E6F7F1A8A7C2F3E9B71B7B148580B /* dog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +269,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				295D9149F2B879A5ABB27A0B72AA0759 /* PBXTargetDependency */,
+				228AE17F4436B5FE2A603CF2E3C868A7 /* PBXTargetDependency */,
 			);
 			name = "Pods-CRHNetworking_Tests";
 			productName = Pods_CRHNetworking_Tests;
@@ -281,7 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F0CFD627CBDFEC35DFDB6D8725FE30DF /* PBXTargetDependency */,
+				6A4EE8214DDF919FE94D8CF346FCBDCA /* PBXTargetDependency */,
 			);
 			name = "Pods-CRHNetworking_Example";
 			productName = Pods_CRHNetworking_Example;
@@ -290,12 +297,12 @@
 		};
 		6ABB6A64453D682143F73809B50FD1C7 /* CRHNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70C9BE2B58A14C2ADC17842A0E949523 /* Build configuration list for PBXNativeTarget "CRHNetworking" */;
+			buildConfigurationList = D20BC18FA712E600871B0610E9A4AC08 /* Build configuration list for PBXNativeTarget "CRHNetworking" */;
 			buildPhases = (
-				63792A9A26FF8DA15C8BEDA5B9D0B072 /* Headers */,
-				7B0D86363329F2BD6901A587D65733F0 /* Sources */,
-				D99EE9D52EA02136ED32E320FC38867A /* Frameworks */,
-				6B0397A0C699E3A50A1AF1EEC990131A /* Resources */,
+				26D21DE087B9BB79DC7FCCD492776925 /* Headers */,
+				B1D9520EDD753FDEC5081A573E1A8DD8 /* Sources */,
+				43196AF63910A9D67621F232061A9534 /* Frameworks */,
+				9D4C3E77521877347B39340BF2B94959 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -336,13 +343,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6B0397A0C699E3A50A1AF1EEC990131A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		786FC216C8ED0AA42B1D6799B6604AE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +351,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7E9DF62DF49B46DC146AD578248CBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D4C3E77521877347B39340BF2B94959 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,35 +383,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B0D86363329F2BD6901A587D65733F0 /* Sources */ = {
+		B1D9520EDD753FDEC5081A573E1A8DD8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFCBFAF29CF8CABB8006739DAAB4A8BC /* CRHNetworking-dummy.m in Sources */,
+				E2BFC495B2BD98666FEFFC98B1CA5F71 /* CRHNetworking-dummy.m in Sources */,
+				745968B0167C93F8ADEB67E0BC828BCA /* dog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		295D9149F2B879A5ABB27A0B72AA0759 /* PBXTargetDependency */ = {
+		228AE17F4436B5FE2A603CF2E3C868A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-CRHNetworking_Example";
 			target = 5B975891A2A9DDB4C654F37FBA80F38E /* Pods-CRHNetworking_Example */;
-			targetProxy = 93878B65EA5855829F5AEF3CB7BD19D7 /* PBXContainerItemProxy */;
+			targetProxy = EB889CC668B66C8A70062E67996C629D /* PBXContainerItemProxy */;
 		};
-		F0CFD627CBDFEC35DFDB6D8725FE30DF /* PBXTargetDependency */ = {
+		6A4EE8214DDF919FE94D8CF346FCBDCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CRHNetworking;
 			target = 6ABB6A64453D682143F73809B50FD1C7 /* CRHNetworking */;
-			targetProxy = CEA6A158BE5B18914DB369845A672A26 /* PBXContainerItemProxy */;
+			targetProxy = 65FFA4409BAC6E88DADAC7C08AD02C10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09070B42E4324BCA2CC90E4F21156864 /* Release */ = {
+		24F8EA155D46E5BC7BD00BBC3C7C1B24 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C94B48726CA4032BFC601E8F2451209 /* CRHNetworking.release.xcconfig */;
+			baseConfigurationReference = D30E360739C7097A3B9FB3E6BD9D337A /* CRHNetworking.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -418,7 +426,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CRHNetworking/CRHNetworking-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CRHNetworking/CRHNetworking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CRHNetworking/CRHNetworking.modulemap";
 				PRODUCT_MODULE_NAME = CRHNetworking;
@@ -434,9 +442,9 @@
 			};
 			name = Release;
 		};
-		7C0558870C537AAA60B7405325560A80 /* Debug */ = {
+		3B809B223D7DDCF02DDBCCFBBA68BC85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95A506C2732DE6265CB1040697E73425 /* CRHNetworking.debug.xcconfig */;
+			baseConfigurationReference = 4494D4A2AD52DD3D694134E3188B9E81 /* CRHNetworking.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -450,7 +458,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/CRHNetworking/CRHNetworking-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/CRHNetworking/CRHNetworking-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CRHNetworking/CRHNetworking.modulemap";
 				PRODUCT_MODULE_NAME = CRHNetworking;
@@ -520,7 +528,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -747,20 +756,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70C9BE2B58A14C2ADC17842A0E949523 /* Build configuration list for PBXNativeTarget "CRHNetworking" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7C0558870C537AAA60B7405325560A80 /* Debug */,
-				09070B42E4324BCA2CC90E4F21156864 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		837EA88BE1A73C589911D7DCFEC89ED5 /* Build configuration list for PBXNativeTarget "Pods-CRHNetworking_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D49531683193E3038E8D9835ED3AB1A /* Debug */,
 				9D51ACC67E25DA0FBE4AF2AA629A5E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D20BC18FA712E600871B0610E9A4AC08 /* Build configuration list for PBXNativeTarget "CRHNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B809B223D7DDCF02DDBCCFBBA68BC85 /* Debug */,
+				24F8EA155D46E5BC7BD00BBC3C7C1B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "dog.h"
 
 FOUNDATION_EXPORT double CRHNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char CRHNetworkingVersionString[];

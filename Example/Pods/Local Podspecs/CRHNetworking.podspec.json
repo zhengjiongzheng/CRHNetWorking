@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of CRHNetworking.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/771589636@qq.com/CRHNetworking",
+  "homepage": "https://github.com/zhengjiongzheng/CRHNetworking.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "771589636@qq.com": "luxq0705@cairenhui.com"
   },
   "source": {
-    "git": "https://github.com/771589636@qq.com/CRHNetworking.git",
+    "git": "https://github.com/zhengjiongzheng/CRHNetworking.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
   "source_files": "CRHNetworking/Classes/**/*"
 }
