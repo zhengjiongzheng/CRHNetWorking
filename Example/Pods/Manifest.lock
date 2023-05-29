@@ -1,15 +1,36 @@
 PODS:
-  - CRHNetworking (1.0.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - CRHNetworking (0.1.0):
+    - AFNetworking (~> 4.0)
 
 DEPENDENCIES:
   - CRHNetworking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   CRHNetworking:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CRHNetworking: 585028b0a319ed1c7a08eb6f4ec0c65617210372
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CRHNetworking: 31fd22e43f8bf4ceef173d19db59c247339877da
 
 PODFILE CHECKSUM: 3842e2dde65cbb1012353afda055ab505a4ef571
 

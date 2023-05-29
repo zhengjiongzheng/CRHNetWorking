@@ -7,7 +7,7 @@
 //
 
 #import "CRHViewController.h"
-
+#import <NBFetchModel.h>
 @interface CRHViewController ()
 
 @end

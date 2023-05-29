@@ -10,7 +10,11 @@
 #endif
 #endif
 
-#import "dog.h"
+#import "NBFetchModel.h"
+#import "NBJsonModel.h"
+#import "NBRequestFetchModelPool.h"
+#import "NSDictionary+NBJson.h"
+#import "NSObject+NBProperties.h"
 
 FOUNDATION_EXPORT double CRHNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char CRHNetworkingVersionString[];
