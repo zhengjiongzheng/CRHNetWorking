@@ -30,18 +30,12 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '11.0'
 
-  #s.source_files = 'CRHNetworking/Classes/**/*'
+  s.source_files = 'CRHNetworking/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CRHNetworking' => ['CRHNetworking/Assets/*.png']
   # }
-  s.subspec 'Tool' do |ss|
-        ss.source_files = 'CRHNetworking/Classes/Tool/*.{h,m}'
-    end
-  s.subspec 'NetLayer' do |ss|
-       ss.source_files = 'CRHNetworking/Classes/NetLayer/*.{h,m}'
-       
-  end
+ 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'AFNetworking', '~> 4.0.1'
