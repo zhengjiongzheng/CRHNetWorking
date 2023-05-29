@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface dog : NSObject
-
+-(NSString *)getName;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -8,5 +8,8 @@
 #import "dog.h"
 
 @implementation dog
-
+-(NSString *)getName
+{
+    return @"hh";
+}
 @end
