@@ -13,6 +13,7 @@
 #import "NBFetchModel.h"
 #import "NBJsonModel.h"
 #import "NBRequestFetchModelPool.h"
+#import "people.h"
 #import "NSDictionary+NBJson.h"
 #import "NSObject+NBProperties.h"
 
